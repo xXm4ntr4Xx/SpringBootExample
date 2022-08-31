@@ -29,15 +29,15 @@
 
 
 COM PACKAGE Key note:
-1.Implement the CommandLineRunner (necessary for running all the springBoot code and allow to implement the public void run method)
+1.Implement the CommandLineRunner (necessary for running all the springBoot code and allow to implement the public void run method)<br>
 On main file call the following annotation: <br>
- -@SpringBootApplication
- -@Autowired (dependency injection of the bookService)
+ -@SpringBootApplication<br>
+ -@Autowired (dependency injection of the bookService)<br>
  <hr>
  
  DAO PACKAGE Key note:
- call the @Repository Annotation
- call the @Autowired Annotation(call the jdbcTemplate)
+ call the @Repository Annotation<br>
+ call the @Autowired Annotation(call the jdbcTemplate)<br>
  <hr>
  
  
