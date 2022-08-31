@@ -23,4 +23,32 @@
 <img width="271" alt="Screenshot 2022-08-31 at 18 21 25" src="https://user-images.githubusercontent.com/74420607/187740591-4d4bc59e-f17b-4dfe-9c9a-0932dd7b957a.png">
 <img width="468" alt="Screenshot 2022-08-31 at 18 21 38" src="https://user-images.githubusercontent.com/74420607/187740620-28e25491-4be8-4b6f-a721-4c61eb423005.png">
 <hr>
+7.lets fill the main file on com package
+<img width="577" alt="Screenshot 2022-08-31 at 18 23 59" src="https://user-images.githubusercontent.com/74420607/187741011-ee9014af-d2db-4fdd-a8b7-7fd6a31147d4.png">
+<hr>
 
+
+COM PACKAGE Key note:
+1.Implement the CommandLineRunner (necessary for running all the springBoot code and allow to implement the public void run method)
+On main file call the following annotation: <br>
+ -@SpringBootApplication
+ -@Autowired (dependency injection of the bookService)
+ <hr>
+ 
+ DAO PACKAGE Key note:
+ call the @Repository Annotation
+ call the @Autowired Annotation(call the jdbcTemplate)
+ <hr>
+ 
+ 
+ SERVICE PACKAGE Key note:
+ call the @Service Annotation
+ call the @Autowired Annotation(call the bookDAO)
+ <hr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
